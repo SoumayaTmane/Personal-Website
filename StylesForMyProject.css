@@ -1,0 +1,109 @@
+/*
+    deepskyblue #00BFFF
+*/
+/* Global Styles
+---------------------------*/
+html{
+    box-sizing: border-box;
+
+}
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+/* pages will cover entire page */
+html, body{
+    height: 100%;
+}
+body {
+    background: rgb(253, 227, 235);
+    margin: 0;
+}
+/* links */
+a{
+    
+    color: #d69491;
+}
+a:hover{
+    color: #e3726c;
+    text-decoration: none;
+}
+.btn{
+    color:#e0746e;
+    background-color: #a49393; 
+    text-decoration: none;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+
+}
+
+/* Home 
+---------------------------*/
+.home{
+    background: url(PinkImage.png) no-repeat;
+    
+    }
+.home .content-wrapper{
+    background:rgba(248, 230, 230, 0.9);
+    
+}
+
+/* Resume 
+---------------------------*/
+.resume header::before{
+    background: url(PinkImage.png) ; 
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+/* Profile 
+---------------------------*/
+
+
+/* Project 
+---------------------------*/
+.project-item{
+    /* display: flow-r/oot; */
+    margin: 30px 0;
+    
+}
+.project-item img {
+    width: 300px;
+   float: left;
+   margin-right: 20px;
+    
+}
+.project-item {
+    display: flex;
+    align-items: center;
+    
+}
+/* Work Experience 
+---------------------------*/
+
+/* Education 
+---------------------------*/
+
+
+
+/* Footer 
+---------------------------*/
+footer{
+    background: #222;
+    color: #d3d4d6;
+}
+.socials{
+    list-style-type: none;
+    padding:0;
+}
+.socials li{
+    display: inline-block;
+}
+.socials img{
+    width: 32px;
+}
